@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <root-path
+        name="root-path"
+        path=""/>
+    <external-path
+        name="external-path"
+        path="."/>
+    <files-path
+        name="app-path"
+        path="data/data/com.icy.wxapk1installer/"/>
+    <external-path
+        name="external-app-path"
+        path="Android/data/com.icy.wxapk1installer/"/>
+</paths>
