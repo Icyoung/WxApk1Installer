@@ -31,13 +31,13 @@ object Utils {
 
     //获取去掉.1后的文件名
     private fun getFileNameRemoveSuffix(uri: Uri): String? {
-        if (!uri.path!!.endsWith(".apk.1")) return null
+        if (!uri.path!!.contains(".apk.1")) return null
         var fileName: String? = null
         val path = uri.path
         val cut = path!!.lastIndexOf('/')
-        val end = path.lastIndexOf('.')
+        val end = path.lastIndexOf('k')
         if (cut != -1) {
-            fileName = path.substring(cut + 1, end)
+            fileName = path.substring(cut + 1, end + 1)
         }
         return fileName
     }
