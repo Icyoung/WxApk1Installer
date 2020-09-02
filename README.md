@@ -3,4 +3,4 @@
 
  基于FileProvider content://协议、兼容7.0以下file://协议、支持外部文件管理器打开
  
- 下载地址 https://github.com/Icyoung/WxApk1Installer/raw/master/app/release/app-release.apk
+ 下载地址 https://raw.githubusercontent.com/Icyoung/WxApk1Installer/master/app/release/app-release.apk
